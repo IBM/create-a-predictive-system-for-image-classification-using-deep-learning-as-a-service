@@ -101,7 +101,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image-classification_baseline_model.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebook/Image-classification_baseline_model.ipynb
 * Select the runtime (16 vCPU and 64 GB RAM)
 * Click the `Create` button.
 * Repeat the above steps to import the remaining notebooks which are in the notebooks folder into the project.
@@ -199,7 +199,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * In step number 3, enter the below notebook URL to create and import the notebook.
 
-* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image_classification_WML_model_Testing_Deployment.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebook/Image_classification_WML_model_Testing_Deployment.ipynb
 
 * In step number 4, add the data files by name train.pkl, test.pkl & validation.pkl to the cloud object storage. These files will be ingested into the notebook which is created per above step. Refer to the `pickle` folder for the format to be used for generating pickled files using the notebook `Resize & pickle the data.` You can use any other methodology as per your comfort to generate pickle files. 
 

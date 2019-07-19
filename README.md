@@ -31,7 +31,7 @@ When the reader has completed this code pattern, they will understand how to:
 
 ## Architecture Diagram
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/architecture.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/architecture.png)
 
 ## Flow
 1. User uploads images data to IBM Cloud Storage.
@@ -86,11 +86,11 @@ Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/).
 
 Click on New project and select Data Science as per below.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/new_project.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/new_project.png)
 
 Define the project by giving a Name and hit 'Create'.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/define_project.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/define_project.png)
 
 By creating a project in Watson Studio a free tier ``Object Storage`` service will be created in your IBM Cloud account.
 
@@ -101,17 +101,17 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/notebooks/Image-classification_baseline_model.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image-classification_baseline_model.ipynb
 * Select the runtime (16 vCPU and 64 GB RAM)
 * Click the `Create` button.
 * Repeat the above steps to import the remaining notebooks which are in the notebooks folder into the project.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create_notebook.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/create_notebook.png)
 
 ## 4. Add the data
 
-[Clone this repo](https://github.com/IBM/image-preprocessing-for-deep-learning-models)
-Navigate to [images data](https://github.com/IBM/image-preprocessing-for-deep-learning-models/tree/master/data/images) and save the zip file on the disk. The sample data has been extracted and renamed from the original dataset.
+[Clone this repo](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service)
+Navigate to [images data](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/tree/master/data/images) and save the zip file on the disk. The sample data has been extracted and renamed from the original dataset.
 
 `If you are using a mac machine and creating new zip folder of images, the compression of new image files creates additional file which should be deleted. On command prompt, go to the compressed file location and run the below command & then upload the zip file into cloud object storage. This activity is not needed if you use the sample trained_Data folder which is available in this repository.
 
@@ -145,7 +145,7 @@ Use `Find and Add Data` (look for the `10/01` icon)
 and its `Files` tab. From there you can click
 `browse` and add the images data file from your computer.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/add_file.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/add_file.png)
 
 Note: The images data file is in the `data/images` directory
 
@@ -155,7 +155,7 @@ Select the cell below `Read the Data` section in the notebook.
 
 Use `Find and Add Data` (look for the `10/01` icon) and its `Files` tab. You should see the file names uploaded earlier. Make sure your active cell is the empty one created earlier. Select `Insert to code` (below your file name). Click `Insert StreamingBody Object` & `Insert credentials` from drop down menu as specified in the notebook.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/insert.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/insert.png)
 
 ## 6. Run the notebook
 
@@ -183,7 +183,7 @@ There are several ways to execute the code cells in your notebook:
 
 In this Section, we will generate predictions on the test data which is not seen by the model. The format will be per below where the true filename & predicted filename are listed side by side. We will send these results in the form of csv to the cloud object storage where we can download the csv file for further analysis. 
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/predictions.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/predictions.png)
 
 This will help us validate the prediction accuracy on the test data. 
 
@@ -191,7 +191,7 @@ This will help us validate the prediction accuracy on the test data.
 
 Log in to [IBM Cloud](https://cloud.ibm.com/login) and click on Dashboard-Storage-cloud-object-storage-he which will display the bucket created for our project. Click on the bucket to view the files inside it and hit the three dots towards the right side of the file to download the file object onto the local machine for evaluating the results.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/download_file.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/download_file.png)
 
 ## 9. Run the notebook and publish it to Watson Machine Learning
 
@@ -199,7 +199,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * In step number 3, enter the below notebook URL to create and import the notebook.
 
-* Enter this Notebook URL: https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/notebooks/Image_classification_WML_model_Testing_Deployment.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image_classification_WML_model_Testing_Deployment.ipynb
 
 * In step number 4, add the data files by name train.pkl, test.pkl & validation.pkl to the cloud object storage. These files will be ingested into the notebook which is created per above step. Refer to the `pickle` folder for the format to be used for generating pickled files using the notebook `Resize & pickle the data.` You can use any other methodology as per your comfort to generate pickle files. 
 
@@ -209,86 +209,86 @@ Follow the steps 1 to 7 with the below changes.
 
 ### Deploy the model
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/deploy_the_model.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/deploy_the_model.png)
 
 ### Generate scoring URL
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/deployment_url.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/deployment_url.png)
 
 ## 10. Create experiments using GPU for hyper parameters optimization
 
 In this section, we will see how to create `experiments using Deep Learning As A Service(DLAAS) for hyper parameters optimization and deploy the best model with highest accuracy as a REST API for real-time scoring.`
 
 First, we need to save the scripts & artefacts for running the experiment to the local file system or cloud object storage.
-Navigate to [scripts-for-experiments](https://github.com/IBM/image-preprocessing-for-deep-learning-models/tree/master/scripts-for-experiments) and download the zip file onto the system. `This zip file is critical for creating and running experiments successfully. If you want to modify the model parameters or create a new model, then it has to be done in image_classify.py file and then zip it to be uploaded for experiments.`
+Navigate to [scripts-for-experiments](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/tree/master/scripts-for-experiments) and download the zip file onto the system. `This zip file is critical for creating and running experiments successfully. If you want to modify the model parameters or create a new model, then it has to be done in image_classify.py file and then zip it to be uploaded for experiments.`
 
 Next step is to launch the Watson Studio interface and choose the project that we are working on and go to `Assets` tab. Under experiments, click on `New Experiment`.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/new-experiment.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/new-experiment.png)
 
 Give a name for the experiment under `Define Experiment` Details. Select Machine Learning Service Instance from the dropdown (create one by following the instructions if it is not there). Select Cloud Object Storing Bucket for training data from the dropdown (create one by following the instructions if it is not there) and select Cloud Object Storage bucket for storing results (create one by following the instructions if it is not there). It is good to keep two separate buckets for training data and for storing results data.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/define-experiment.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/define-experiment.png)
 
 We need to add a `Training Definition` by clicking on Add Training Definition. Give it a name and click on browse to select your training source code which is the zip file which was downloaded earlier. 
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/add-trng-defn.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/add-trng-defn.png)
 
 `After selecting the training source code, select the framework, execution command & the Compute Configuration per below screenshot.`
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create-trng-defn.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/create-trng-defn.png)
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/select-code-frmwrk.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/select-code-frmwrk.png)
 
 We need to add `Hyperparameter optimization` method and other details per below. Number of optimizer steps can be reduced or increased as per the requirement, i have gone ahead with 10. The objective is to maximize the validation accuracy which needs to be selected per below.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/select-paramtr-opt.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/select-paramtr-opt.png)
 
 The next step is to click on `Add Hyperparameter` and update the parameters per below. We can add more parameters like number of filters and layers if required using the same methodology. Give a name to the hyper parameter and select Values & Data type per below & hit Create. The hyper parameter name should be same as what is mentioned in the script image_classify.py.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/lr.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/lr.png)
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/bs.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/bs.png)
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/epochs.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/epochs.png)
 
 After the `hyper parameters` are created, hit Create and then click on Create and run. The training run will be submitted for processing on IBM cloud. First, it will be in Queued state for about 2 minutes and then it will move to In progress where you can compare the training runs of different combinations of hyper parameters. 
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/trng-status.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/trng-status.png)
 
 `Compare` different training runs
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/compare-runs.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/compare-runs.png)
 
 Check the `accuracy` of training runs
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/check-accuracy.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/check-accuracy.png)
 
 We need to select which training run has given highest accuracy and then save the model per below. For ex :- if `training_run_1` has given highest accuracy then we have to click on three dots on the right side and click on Save model, give a name and hit Save.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/save-model.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/save-model.png)
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/save-deplyd-mdl.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/save-deplyd-mdl.png)
 
 We will see a message that `Model successfully saved`. View model details here. Click on it and we will be directed to the model details per below.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/view-model.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/view-model.png)
 
 Click on Deployments and select `Add Deployment`. Give a name for the deployed model and select Web Service radio button as we are deploying it as REST API for online scoring and hit Save.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/create-dplymt.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/create-dplymt.png)
 
 After a couple of seconds, the deployed model will have the Status as `DEPLOY_SUCCESS`. We have successfully deployed the model as a web service.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/deploy-success.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/deploy-success.png)
 
 Click on `Deployments` to find the instance we have deployed and select the instance by clicking on it. 
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/view-saved-model.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/view-saved-model.png)
 
 Test the model : Click on deployed model to see the Overview, Implementation & Test attributes. Under Implementation we can find the Python code to do real time scoring or use the Test attribute and copy paste the contents from test_data_json file in this repository and hit Predict to generate predictions. We can also use the `scoring` notebook for generating the predictions and accuracy.
 
-![](https://github.com/IBM/image-preprocessing-for-deep-learning-models/blob/master/doc/source/images/predict.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/predict.png)
 
 This completes the section of creating experiments for hyper parameters optimization and deploying the optimized model as a REST API for realtime scoring. 
 

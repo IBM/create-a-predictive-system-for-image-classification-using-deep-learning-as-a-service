@@ -1,6 +1,18 @@
 # Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning As A Service
 
-Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with around 4 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes. We will demonstrate how to use Python scripts & drag n drop GUI for achieving the objective.
+Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes. We will demonstrate how to use Python scripts & drag n drop GUI for achieving the objective.
+
+## How can IBM technologies help? 
+
+**Deep Learning As A Service**
+
+We understand that, to solve this problem there's a need to use deep learning techniques to achive state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
+
+IBM's Deep Learning as a Service enables organizations to overcome the common barriers to deep learning deployment: skills, standardization, and complexity. It embraces a wide array of popular open source frameworks like TensorFlow, Caffe, PyTorch and others, and offers them truly as a cloud-native service on IBM Cloud, lowering the barrier to entry for deep learning. It combines the flexibility, ease-of-use, and economics of a cloud service with the compute power of deep learning. With easy to use REST APIs, one can train deep learning models with different amounts of resources per user requirements, or budget.
+
+Training of deep neural networks, known as deep learning, is currently highly complex and computationally intensive. It requires a highly-tuned system with the right combination of software, drivers, compute, memory, network, and storage resources.To realize the full potential of this rising trend, we want this technology to be more easily accessible to developers and data scientists so they can focus more on doing what they do best –concentrating on data and its refinements, training neural network models with automation over these large datasets, and creating cutting-edge models.
+
+In this pattern, we demonstrate the creation and deployment of deep learning models using Jupyter Notebook (using CPU) in Watson Studio environment and create deep learning `Experiments` (using GPU) with hyper parameters optimization using Watson Studio GUI for monitoring different runs and select the best model for deployment. 
 
 ## What is CNN?
 
@@ -19,7 +31,8 @@ When the reader has completed this code pattern, they will understand how to:
 
 * Preprocess the images to get them ready for model building.
 * Access images data from cloud object storage and write the predicted output to cloud object storage.
-* Create a step by step deep learning model which includes flexible hyper parameters to classify the images accurately.
+* Create a step by step deep learning model (code based) which includes flexible hyper parameters to classify the images accurately.
+* Create experiments in Watson Studio (GUI based) for deploying state of the art models with hyper parameters optimization. 
 * Create visualizations for better understanding of the model predictions.
 * Interpret the model summary and generate predictions using the test data.
 * Analyze the results for further processing to generate recommendations or taking informed decisions.
@@ -47,6 +60,8 @@ When the reader has completed this code pattern, they will understand how to:
 * [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio): Analyze data using RStudio, Jupyter, and Python in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
 
 * [IBM Watson Machine Learning](https://www.ibm.com/in-en/cloud/machine-learning): IBM Watson Machine Learning helps data scientists and developers work together to accelerate the process of moving to deployment and integrate AI into their applications.
+
+* [IBM Deep Learning As A Service](https://www.ibm.com/blogs/watson/2018/03/deep-learning-service-ibm-makes-advanced-ai-accessible-users-everywhere/): Making Deep Learning More Accessible, and Easier to Scale.
 
 * [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage): An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
 

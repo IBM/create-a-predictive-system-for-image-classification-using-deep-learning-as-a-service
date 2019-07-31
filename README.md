@@ -125,6 +125,8 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 
 ## 4. Add the data
 
+`The images have been sourced from Google search and is being used for research activities. The images have been used as part of Fair Use policies for demonstration purpose only.`
+
 [Clone this repo](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service)
 Navigate to [images data](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/tree/master/data/images) and save the zip file on the disk. The sample data has been extracted and renamed from the original dataset.
 
@@ -216,7 +218,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebook/Image_classification_WML_model_Testing_Deployment.ipynb
 
-* In step number 4, add the data files by name train.pkl, test.pkl & validation.pkl to the cloud object storage. These files will be ingested into the notebook which is created per above step. Refer to the `pickle` folder for the format to be used for generating pickled files using the notebook `Resize & pickle the data.` You can use any other methodology as per your comfort to generate pickle files. 
+* In step number 4, add the data files by name train.pkl, test.pkl & validation.pkl to the cloud object storage. These files will be ingested into the notebook which is created per above step. You are free to use any other methodology as per your comfort to generate pickle files. 
 
 * In Step number 5, insert credentials as specified in the notebook and run the notebook as per step 6. The scoring URL would be generated which will be used to predict the class for test data.
 

@@ -226,7 +226,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * In Step number 5, insert credentials as specified in the notebook and run the notebook as per step 6. The scoring URL would be generated which will be used to predict the class for test data.
 
-* In step number 7, to analyze the results or generate predictions, use the scoring URL in the notebook and provide the test data in the required format as a JSON file to generate predictions. We can either run the last few cells in the notebook to generate predictions or use a separate notebook and provide the sample_test_data json to get the predictions. 
+* In step number 7, to analyze the results or generate predictions, use the scoring URL in the notebook and provide the test data in the required format as a JSON file to generate predictions. We can either run the last few cells in the notebook to generate predictions or use a separate notebook and provide the test_data.json to get the predictions. 
 
 ### Deploy the model
 

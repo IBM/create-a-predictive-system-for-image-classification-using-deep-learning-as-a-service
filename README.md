@@ -202,7 +202,7 @@ In this Section, we will generate predictions on the test data which is not seen
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/results-from-model.png)
 
-This will help us validate the prediction accuracy on the test data. In this case, the test data accuracy is 84% if we use the images in the jpg format as input.
+This will help us validate the prediction accuracy on the test data. In this case, the test data accuracy is 84% (5 out of 6 images have been classified accurately) if we use the images in the jpg format as input.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/results-from-wml.png)
 

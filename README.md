@@ -206,7 +206,7 @@ This will help us validate the prediction accuracy on the test data. In this cas
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/results-from-wml.png)
 
-If we preprocess the images and convert it to pickel format, the test data accuracy will be 100% because the images are converted into pixel array with input and target variables and the model is able to learn the pattern better than the raw images in jpg format. The models have been fine tuned in such a way that with less computation & less data time state of the art results are achieved. We have provided the notebooks for both methodologies for you to explore more as per your requirement. 
+If we preprocess the images (resize it to 224/224) and convert it to pickle format, the test data accuracy will be 100% because the images are converted into pixel array with input and target variables in the pickle files and the model is able to learn the pattern better than the raw images in jpg format. The models have been fine tuned in such a way that with less computation & less data time state of the art results are achieved. We have provided the notebooks for both methodologies for you to explore more as per your requirement. A tutorial on image preprocessing will be released soon which will cover many aspects with regards to preprocessing the images.
 
 ## 8. Access cloud object storage bucket
 

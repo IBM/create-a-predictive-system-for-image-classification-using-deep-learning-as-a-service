@@ -257,7 +257,7 @@ We need to add a `Training Definition` by clicking on Add Training Definition. G
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/select-code-frmwrk.png)
 
-We need to add `Hyperparameter optimization` method and other details per below. Number of optimizer steps can be reduced or increased as per the requirement, i have gone ahead with 10. The objective is to maximize the validation accuracy which needs to be selected per below.
+We need to add `Hyperparameter optimization` method and other details per below. Number of optimizer steps can be reduced or increased as per the requirement, i have gone ahead with 30. The objective is to maximize the validation accuracy which needs to be selected per below.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/select-paramtr-opt.png)
 
@@ -281,7 +281,7 @@ Check the `accuracy` of training runs
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/check-accuracy.png)
 
-We need to select which training run has given highest accuracy and then save the model per below. For ex :- if `training_run_1` has given highest accuracy then we have to click on three dots on the right side and click on Save model, give a name and hit Save.
+We need to select which training run has given highest accuracy and then save the model per below. For ex :- if `Exp_1_1` has given highest accuracy then we have to click on three dots on the right side and click on Save model, give a name and hit Save. In this case, we can either select Exp_1_6 or Exp_1_28 which has low validation loss and high validation accuracy and save the model for deployment.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/save-model.png)
 

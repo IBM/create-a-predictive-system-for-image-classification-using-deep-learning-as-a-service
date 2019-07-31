@@ -6,11 +6,11 @@ Computer vision usability is on the rise these days and there could be scenarios
 
 **Deep Learning As A Service**
 
-We understand that, to solve this problem there's a need to use deep learning techniques to achive state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
+We understand that, to solve this problem there's a need to use deep learning techniques to achieve state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
 
 IBM's Deep Learning as a Service enables organizations to overcome the common barriers to deep learning deployment: skills, standardization, and complexity. It embraces a wide array of popular open source frameworks like TensorFlow, Caffe, PyTorch and others, and offers them truly as a cloud-native service on IBM Cloud, lowering the barrier to entry for deep learning. It combines the flexibility, ease-of-use, and economics of a cloud service with the compute power of deep learning. With easy to use REST APIs, one can train deep learning models with different amounts of resources per user requirements, or budget.
 
-Training of deep neural networks, known as deep learning, is currently highly complex and computationally intensive. It requires a highly-tuned system with the right combination of software, drivers, compute, memory, network, and storage resources.To realize the full potential of this rising trend, we want this technology to be more easily accessible to developers and data scientists so they can focus more on doing what they do best –concentrating on data and its refinements, training neural network models with automation over these large datasets, and creating cutting-edge models.
+Training of deep neural networks, known as deep learning, is currently highly complex and computationally intensive. It requires a highly-tuned system with the right combination of software, drivers, compute, memory, network, and storage resources. To realize the full potential of this rising trend, we want this technology to be more easily accessible to developers and data scientists so they can focus more on doing what they do best –concentrating on data and its refinements, training neural network models with automation over these large datasets, and creating cutting-edge models.
 
 In this pattern, we demonstrate the creation and deployment of deep learning models using Jupyter Notebook (using CPU) in Watson Studio environment and create deep learning `Experiments` (using GPU) with hyper parameters optimization using Watson Studio GUI for monitoring different runs and select the best model for deployment. 
 
@@ -99,11 +99,11 @@ Sign up for IBM [**Cloud**](https://console.bluemix.net/). By clicking on create
 
 Sign up for IBM's [Watson Studio](http://dataplatform.ibm.com/). 
 
-Click on New project and select Data Science as per below.
+Click on `New project` and select `Data Science` as per below.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/new_project.png)
 
-Define the project by giving a Name and hit 'Create'.
+Define the project by giving a Name and hit `Create`.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/define_project.png)
 
@@ -226,7 +226,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * In Step number 5, insert credentials as specified in the notebook and run the notebook as per step 6. The scoring URL would be generated which will be used to predict the class for test data.
 
-* In step number 7, to analyze the results or generate predictions, use the scoring URL in the notebook and provide the test data in the required format as a JSON file to generate predictions. We can either run the last few cells in the notebook to generate predictions or use a separate notebook and provide the test_data.json to get the predictions. 
+* In step number 7, to analyze the results or generate predictions, use the scoring URL in the notebook and provide the test data in the required format as a JSON file to generate predictions. We can either run the last few cells in the notebook to generate predictions or use a separate notebook and provide the sample_test_data json to get the predictions. 
 
 ### Deploy the model
 
@@ -317,7 +317,7 @@ This completes the section of creating experiments for hyper parameters optimiza
 
 ### Watch the Video for creating experiments & deploying the model
 
-`Will be uploaded soon`
+[![](http://img.youtube.com/vi/kkNr1fv6QZc/1.jpg)](https://youtu.be/kkNr1fv6QZc)
 
 
 # License

@@ -317,7 +317,7 @@ This completes the section of creating experiments for hyper parameters optimiza
 
 ### Watch the Video for creating experiments & deploying the model
 
-[![](http://img.youtube.com/vi/kkNr1fv6QZc/1.jpg)](https://youtu.be/kkNr1fv6QZc)
+`Will be uploaded soon`
 
 
 # License

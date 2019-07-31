@@ -116,7 +116,7 @@ By creating a project in Watson Studio a free tier ``Object Storage`` service wi
 * Select the `From URL` tab.
 * Enter a name for the notebook.
 * Optionally, enter a description for the notebook.
-* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebook/Image-classification_baseline_model.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image-classification_baseline_model.ipynb
 * Select the runtime (16 vCPU and 64 GB RAM)
 * Click the `Create` button.
 * Repeat the above steps to import the remaining notebooks which are in the notebooks folder into the project.
@@ -200,9 +200,13 @@ There are several ways to execute the code cells in your notebook:
 
 In this Section, we will generate predictions on the test data which is not seen by the model. The format will be per below where the true filename & predicted filename are listed side by side. We will send these results in the form of csv to the cloud object storage where we can download the csv file for further analysis. 
 
-![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/predictions.png)
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/results-from-model.png)
 
-This will help us validate the prediction accuracy on the test data. 
+This will help us validate the prediction accuracy on the test data. In this case, the test data accuracy is 84% if we use the images in the jpg format as input.
+
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/results-from-wml.png)
+
+If we preprocess the images and convert it to pickel format, the test data accuracy will be 100% because the images are converted into pixel array with input and target variables and the model is able to learn the pattern better than the raw images in jpg format. We have provided the notebooks for both methodologies for you to explore more as per your requirement. 
 
 ## 8. Access cloud object storage bucket
 
@@ -216,7 +220,7 @@ Follow the steps 1 to 7 with the below changes.
 
 * In step number 3, enter the below notebook URL to create and import the notebook.
 
-* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebook/Image_classification_WML_model_Testing_Deployment.ipynb
+* Enter this Notebook URL: https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/notebooks/Image_classification_WML_model_Deployment.ipynb
 
 * In step number 4, add the data files by name train.pkl, test.pkl & validation.pkl to the cloud object storage. These files will be ingested into the notebook which is created per above step. You are free to use any other methodology as per your comfort to generate pickle files. 
 

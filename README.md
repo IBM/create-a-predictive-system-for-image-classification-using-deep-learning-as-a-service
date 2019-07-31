@@ -277,11 +277,13 @@ After the `hyper parameters` are created, hit Create and then click on Create an
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/compare-runs.png)
 
-Check the `accuracy` of training runs
+Check the `accuracy` & `loss` of training runs.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/check-accuracy.png)
 
-We need to select which training run has given highest accuracy and then save the model per below. For ex :- if `Exp_1_1` has given highest accuracy then we have to click on three dots on the right side and click on Save model, give a name and hit Save. In this case, we can either select Exp_1_6 or Exp_1_28 which has low validation loss and high validation accuracy and save the model for deployment.
+![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/check-loss.png)
+
+We need to select which training run has given highest accuracy for training & validation data and then save the model per below. For ex :- if `Exp_1_1` has given highest accuracy then we have to click on three dots on the right side and click on Save model, give a name and hit Save. In this case, we can either select Exp_1_6 or Exp_1_28 which has low validation loss and high validation accuracy and save the model for deployment.
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/save-model.png)
 

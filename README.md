@@ -241,7 +241,7 @@ Follow the steps 1 to 7 with the below changes.
 In this section, we will see how to create `experiments using Deep Learning As A Service(DLAAS) for hyper parameters optimization and deploy the best model with highest accuracy as a REST API for real-time scoring.`
 
 First, we need to save the scripts & artefacts for running the experiment to the local file system or cloud object storage.
-Navigate to [scripts-for-experiments](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/tree/master/scripts-for-experiments) and download the zip file onto the system. `This zip file is critical for creating and running experiments successfully. If you want to modify the model parameters or create a new model, then it has to be done in image_classify.py file and then zip it to be uploaded for experiments.`
+Navigate to [scripts_for_experiments](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/tree/master/scripts_for_experiments) and download the zip file onto the system. `This zip file is critical for creating and running experiments successfully. If you want to modify the model hyper parameters or create a new model, then it has to be done in image_classify.py file and then zip it to be uploaded for experiments.`
 
 Next step is to launch the Watson Studio interface and choose the project that we are working on and go to `Assets` tab. Under experiments, click on `New Experiment`.
 

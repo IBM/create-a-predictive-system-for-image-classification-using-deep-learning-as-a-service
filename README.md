@@ -1,4 +1,4 @@
-# Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning As A Service
+## Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning As A Service
 
 Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes.
 
@@ -75,7 +75,7 @@ When the reader has completed this code pattern, they will understand how to:
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
 
-# Steps
+## Steps
 
 Follow these steps to setup and run this code pattern. The steps are
 described in detail below.
@@ -320,7 +320,7 @@ This completes the section of creating experiments for hyper parameters optimiza
 `Will be uploaded soon`
 
 
-# License
+## License
 
 This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer [Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
 

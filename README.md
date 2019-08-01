@@ -6,7 +6,7 @@ Computer vision usability is on the rise these days and there could be scenarios
 
 ## Deep Learning As A Service(DLAAS)
 
-We understand that, to solve this problem there's a need to use deep learning techniques to achive state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
+We understand that, to solve this problem there's a need to use deep learning techniques to achieve state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
 
 IBM's Deep Learning as a Service enables organizations to overcome the common barriers to deep learning deployment: skills, standardization, and complexity. It embraces a wide array of popular open source frameworks like TensorFlow, Caffe, PyTorch and others, and offers them truly as a cloud-native service on IBM Cloud, lowering the barrier to entry for deep learning. It combines the flexibility, ease-of-use, and economics of a cloud service with the compute power of deep learning. With easy to use REST APIs, one can train deep learning models with different amounts of resources per user requirements, or budget.
 

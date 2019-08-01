@@ -4,7 +4,7 @@ Computer vision usability is on the rise these days and there could be scenarios
 
 ## How can IBM technologies help? 
 
-## Deep Learning As A Service
+## Deep Learning As A Service(DLAAS)
 
 We understand that, to solve this problem there's a need to use deep learning techniques to achive state of the art results. But how? Can we automate the process of hyper parameters optimization which is the key aspect to achieve great results & use GPU's for quick computation? The answer is Yes!
 

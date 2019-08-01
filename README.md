@@ -1,6 +1,6 @@
 # Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning As A Service
 
-Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes. We will demonstrate how to use Python scripts & drag n drop GUI for achieving the objective.
+Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes.
 
 ## How can IBM technologies help? 
 
@@ -14,13 +14,13 @@ Training of deep neural networks, known as deep learning, is currently highly co
 
 In this pattern, we demonstrate the creation and deployment of deep learning models using Jupyter Notebook (using CPU) in Watson Studio environment and create deep learning `Experiments` (using GPU) with hyper parameters optimization using Watson Studio GUI for monitoring different runs and select the best model for deployment. 
 
-## What is CNN?
+### What is CNN?
 
 A convolutional neural network (CNN or Convnets) is one of the most popular algorithms for deep learning, a type of machine learning in which a model learns to perform classification tasks directly from images, video, text, or sound.
 
 CNNs are particularly useful for finding patterns in images to recognise & classify persons, objects, faces, and scenes. They learn directly from image data, using patterns to classify images and eliminating the need for manual feature extraction.
 
-## Advantages of using CNN
+### Advantages of using CNN
 
 CNNs eliminate the need for manual feature extraction—the features are learned directly by the CNN.
 CNNs produce state-of-the-art recognition results.

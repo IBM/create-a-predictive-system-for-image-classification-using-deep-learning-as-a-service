@@ -1,6 +1,6 @@
 ## Multi Class Image Classification of Yoga postures using Watson Studio and Deep Learning as a Service
 
-Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction, wide range of use and simpler processes.
+Computer vision usability is on the rise these days and there could be scenarios where a machine has to classify images based on their class to aid the decision making process. In this pattern, we will demonstrate a methodology to do multi class classification (with 3 classes) using Watson Studio. We will be using yoga postures data to identify the class given an image. This methodology can be applied to any domain and dataset which requires multiple classes of images to be classified accurately which can be extended for further analysis. Some of the advantages of computer vision are reliability, accuracy, cost reduction & wide range of applicability.
 
 ## How can IBM technologies help? 
 

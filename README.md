@@ -74,6 +74,10 @@ When the reader has completed this code pattern, they will understand how to:
 * [Analytics](https://developer.ibm.com/code/technologies/analytics/): Analytics delivers the value of data for the enterprise.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
+## Watch the Video
+
+[![](http://img.youtube.com/vi/CCNKTWUDnwk/0.jpg)](https://youtu.be/CCNKTWUDnwk)
+
 
 ## Steps
 
@@ -313,11 +317,7 @@ Test the model : Click on deployed model to see the Overview, Implementation & T
 
 ![](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/blob/master/doc/source/images/predict.png)
 
-This completes the section of creating experiments for hyper parameters optimization and deploying the optimized model as a REST API for realtime scoring. 
-
-### Watch the Video for creating experiments & deploying the model
-
-`Will be uploaded soon`
+This completes the section of creating experiments for hyper parameters optimization and deploying the optimized model as a REST API for realtime scoring.
 
 
 ## License

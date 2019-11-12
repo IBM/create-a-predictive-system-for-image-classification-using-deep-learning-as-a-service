@@ -27,7 +27,7 @@ to accept into the code base.
 ### Fixing bugs
 
 If you would like to fix a bug, please [raise an
-issue](https://github.com/IBM//issues) before sending a pull
+issue](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/issues) before sending a pull
 request so it can be discussed. If the fix is trivial or non controversial then
 this is not usually necessary.
 

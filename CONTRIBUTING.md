@@ -41,8 +41,7 @@ For more details, see the [MAINTAINERS](MAINTAINERS.md) page.
 
 ## Communication
 
-Please feel free to connect with us on our [here]
-(https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/issues).
+Please feel free to connect with us on our [here](https://github.com/IBM/create-a-predictive-system-for-image-classification-using-deep-learning-as-a-service/issues).
 
 ## Setup
 
